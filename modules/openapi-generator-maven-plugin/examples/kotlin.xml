@@ -26,6 +26,7 @@
 						<configuration>
 							<!-- specify the swagger yaml -->
 							<inputSpec>${project.basedir}/swagger.yaml</inputSpec>
+							<cleanUpOutputFolder>true</cleanUpOutputFolder>
 
 							<!-- target to generate kotlin client code -->
 							<generatorName>kotlin</generatorName>
